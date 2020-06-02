@@ -14,8 +14,8 @@ $ create-bugu
 ```
 ## Boilerplates
 
-* `h5` - Create project with general bugu h5 boilerplate, support by umi.,
-* `management` - Create project with a layout-only bugu manage boilerplate, support by umi.,
+* `h5` - Create project with general bugu h5 boilerplate, support by umi
+* `management` - Create project with a layout-only bugu manage boilerplate, support by umi
 
 
 ## LICENSE

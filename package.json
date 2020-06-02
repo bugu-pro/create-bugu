@@ -48,6 +48,12 @@
     "ora": "^4.0.4",
     "umi-test": "^1.8.2"
   },
-  "keywords": [],
+  "keywords": [
+    "umi",
+    "management",
+    "h5-boilerplate",
+    "app-boilerplate",
+    "umi-boilerplate"
+  ],
   "author": "viccsen <lianghuang.vic@gmail.com> (https://github.com/viccsen)"
 }
