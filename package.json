@@ -1,0 +1,53 @@
+{
+  "name": "create-bugu",
+  "version": "0.0.1",
+  "description": "Creating a BuGu general application using the command line.",
+  "scripts": {
+    "compile": "babel lib -d dist",
+    "watch": "npm run compile -- --watch",
+    "prepublishOnly": "np --no-cleanup --yolo --no-publish",
+    "test": "umi-test test/index.test.js",
+    "cov": "umi-test test/index.test.js --coverage",
+    "prettier": "prettier -c --write '**/*'"
+  },
+  "license": "ISC",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "create-bugu": "./bin/www"
+  },
+  "dependencies": {
+    "chalk": "4.0.0",
+    "clipboardy": "^2.1.0",
+    "debug": "^4.1.1",
+    "execa": "^1.0.0",
+    "fs-extra": "^8.0.1",
+    "glob": "^7.1.4",
+    "inquirer": "^6.4.1",
+    "mkdirp": "^0.5.1",
+    "prettier": "^1.17.0",
+    "semver": "^6.1.0",
+    "sort-package-json": "^1.22.1",
+    "sylvanas": "^0.4.0",
+    "typescript": "^3.8.3",
+    "umi-utils": "^1.5.2",
+    "yargs-parser": "^13.1.1",
+    "yeoman-environment": "^2.8.0",
+    "yeoman-generator": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@types/jest": "^24.0.19",
+    "coffee": "^5.2.1",
+    "mm": "^2.5.0",
+    "np": "^5.0.1",
+    "ora": "^4.0.4",
+    "umi-test": "^1.8.2"
+  },
+  "keywords": [],
+  "author": "viccsen <lianghuang.vic@gmail.com> (https://github.com/viccsen)"
+}
