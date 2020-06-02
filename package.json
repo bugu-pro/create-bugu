@@ -1,6 +1,6 @@
 {
   "name": "create-bugu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Creating a BuGu general application using the command line.",
   "scripts": {
     "compile": "babel lib -d dist",
