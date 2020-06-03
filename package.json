@@ -2,6 +2,14 @@
   "name": "create-bugu",
   "version": "0.0.3",
   "description": "Creating a BuGu general application using the command line.",
+  "homepage": "https://github.com/bugu-pro/create-bugu",
+  "bugs": {
+    "url": "https://github.com/bugu-pro/create-bugu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bugu-pro/create-bugu"
+  },
   "scripts": {
     "compile": "babel lib -d dist",
     "watch": "npm run compile -- --watch",
