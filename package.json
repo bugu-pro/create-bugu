@@ -1,6 +1,6 @@
 {
   "name": "create-bugu",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Creating a BuGu general application using the command line.",
   "homepage": "https://github.com/bugu-pro/create-bugu",
   "bugs": {
