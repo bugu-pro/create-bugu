@@ -58,10 +58,12 @@
   },
   "keywords": [
     "umi",
+    "antd",
     "management",
     "h5-boilerplate",
     "app-boilerplate",
-    "umi-boilerplate"
+    "umi-boilerplate",
+    "antd-boilerplate"
   ],
   "author": "viccsen <lianghuang.vic@gmail.com> (https://github.com/viccsen)"
 }
