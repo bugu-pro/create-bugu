@@ -4,9 +4,10 @@ LABEL maintainer Viccsen<lianghuang.vic@gmail>
 WORKDIR /app
 
 COPY package.json .
-RUN npm install --registry=https://registry.npm.taobao.org
+RUN npm config set registry https://registry.npm.taobao.org
+RUN npm install
 
-COPY . .
+COPY . ./
 RUN npm run build
 
 FROM nginx:stable-alpine
