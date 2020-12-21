@@ -37,6 +37,7 @@
     "mkdirp": "^0.5.1",
     "prettier": "^1.17.0",
     "semver": "^6.1.0",
+    "rimraf": "^3.0.2",
     "sort-package-json": "^1.22.1",
     "sylvanas": "^0.4.0",
     "typescript": "^3.8.3",
@@ -54,7 +55,6 @@
     "mm": "^2.5.0",
     "np": "^5.0.1",
     "ora": "^4.0.4",
-    "rimraf": "^3.0.2",
     "umi-test": "^1.8.2"
   },
   "keywords": [
