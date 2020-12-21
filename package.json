@@ -1,6 +1,6 @@
 {
   "name": "create-bugu",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Creating a BuGu general application using the command line.",
   "homepage": "https://github.com/bugu-pro/create-bugu",
   "bugs": {
@@ -54,6 +54,7 @@
     "mm": "^2.5.0",
     "np": "^5.0.1",
     "ora": "^4.0.4",
+    "rimraf": "^3.0.2",
     "umi-test": "^1.8.2"
   },
   "keywords": [
